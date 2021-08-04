@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.heading{
+    width: 100vw;
+    height: 90vh;
+    background: #21094E;
+}
+.heading h1{
+    font-size: 15rem;
+    color: #A5E1AD;
+    text-shadow: 5px 5px 5px rgb(71, 61, 2);
+    text-align: center;
+    margin: 50px;
+}
+.heading h3{
+    font-size: 2rem;
+    text-align: center;
+    color: honeydew;
+    position: relative;
+    top: 300px;
+}
+.personal{
+    width: 100vw;
+    font-family: 'Righteous', cursive;
+}
+input{
+    width: 90vw;
+    margin: 20px;
+    padding: 30px;
+}
+label{
+    padding: 30px;
+    font-size: 3.5rem;
+    color: honeydew;
+}
+.qsn{
+    padding: 50px;
+    height: 50vh;
+}
+.qsn:nth-child(1){
+    background: #511281;
+}
+.qsn:nth-child(2){
+    background: #4CA1A3;
+}
+.qsn:nth-child(3){
+    background: #A5E1AD;
+}
+.qsn:nth-child(4){
+    background: #64C9CF;
+}
+.qsn:nth-child(5){
+    background: #FDE49C;
+}
+.qsn:nth-child(6){
+    background: #FFB740;
+}
+.qsn:nth-child(7){
+    background: #DF711B;
+}
+.qsn:nth-child(8){
+    background: #FAAD80;
+}
+.qsn:nth-child(9){
+    background: #FF6767;
+}
+.qsn:nth-child(10){
+    background: #FF3D68;
+}
+.qsn:nth-child(11){
+    background: #A73489;
+}
+.submit{
+    background: #3C5186;
+    width: 100vw;
+    height: 30vh;
+}
+.submit button{
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    border-radius: 40px;
+    border-color: none;
+    width: 300px;
+    height: 80px;
+    font-size: 2rem;
+}
