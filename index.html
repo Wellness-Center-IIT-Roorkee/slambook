@@ -2,83 +2,96 @@
 <html>
 
 <head>
-    <title>Save Web Form Data to Spreadsheets - Contact Form</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script>
-        function SubForm() {
-            $.ajax({
-                url: 'https://api.apispreadsheets.com/data/16474/',
-                type: 'post',
-                data: $("#myForm").serializeArray(),
-                success: function () {
-                    alert("Form Data Submitted :)")
-                },
-                error: function () {
-                    alert("There was an error :(")
-                }
-            });
+  <title>Save Web Form Data to Spreadsheets - Contact Form</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script>
+    function SubForm() {
+      $.ajax({
+        url: 'https://api.apispreadsheets.com/data/16474/',
+        type: 'post',
+        data: $("#myForm").serializeArray(),
+        success: function () {
+          alert("Form Data Submitted :)")
+        },
+        error: function () {
+          alert("There was an error :(")
         }
-    </script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+      });
+    }
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <div class="heading">
-      <h1>Slambook</h1><br>
-      <h3>Made With ❤️ By Wellness Centre</h3>
+  <div class="heading">
+    <div class="image">
+      <img src='assets/Group 103.png'>
     </div>
-    <div class="personal">
+  </div>
+  <div class="personal">
+    <div class="questions">
       <form id="myForm">
         <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
+          <div class="texthead">
+            <label>What's your name?</label>
+          </div>
+          <br><br><br><br>
           <input name="qs1" placeholder="Your name">
         </div>
         <div class="qsn">
-          <label>What's your bday?</label><br><br><br><br>
-          <input type="date" name="qs2" placeholder="Your bday">
+          <div class="texthead">
+            <label>What's your name?qhiqewhfiwehfo jebfjeawbclejkabcaj flajk fanejan</label>
+          </div>
+          <br><br><br><br>
+          <input name="qs1" placeholder="Your name">
         </div>
         <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
+          <div class="texthead">
+            <label>What's your name?</label>
+          </div>
+          <br><br><br><br>
+          <input name="qs2" placeholder="Your name">
+        </div>
+        <div class="qsn">
+          <div class="texthead">
+            <label>What's your name?</label>
+          </div>
+          <br><br><br><br>
           <input name="qs3" placeholder="Your name">
         </div>
         <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
+          <div class="texthead">
+            <label>What's your name?</label>
+          </div>
+          <br><br><br><br>
           <input name="qs4" placeholder="Your name">
         </div>
         <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
+          <div class="texthead">
+            <label>What's your name?</label>
+          </div>
+          <br><br><br><br>
           <input name="qs5" placeholder="Your name">
         </div>
         <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
+          <div class="texthead">
+            <label>What's your name?</label>
+          </div>
+          <br><br><br><br>
           <input name="qs6" placeholder="Your name">
         </div>
-        <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
-          <input name="qs7" placeholder="Your name">
-        </div>
-        <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
-          <input name="qs8" placeholder="Your name">
-        </div>
-        <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
-          <input name="qs9" placeholder="Your name">
-        </div>
-        <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
-          <input name="qs10" placeholder="Your name">
-        </div>
-        <div class="qsn">
-          <label>What's your name?</label><br><br><br><br>
-          <input name="qs11" placeholder="Your name">
-        </div>
+        
       </form>
       <div class="submit">
         <button type="submit" onclick="SubForm()">Submit</button>
       </div>
     </div>
+
+  </div>
+  <div class="footer">
+    <img src='assets/Frame.png'>
+  </div>
 </body>
 
 </html>
